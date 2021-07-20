@@ -1,0 +1,167 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  margin:0px;
+  padding:0px;
+  background-size: cover;
+}
+
+nav{
+  background-color: #000;
+  overflow: auto;
+  background-size: cover;
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 18px 4px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.25s;
+  padding: 3px;
+}
+
+a:hover ,a.active{
+  color: black;
+  background-color:#ffffff63;
+  border-radius: 3px;
+  box-shadow: 1px 1px 25px #ffffffc2;
+}
+
+nav h1{
+  color:red;
+  font-size: 17px;
+  line-height: 3.5em;
+  position: absolute;
+  left: 5px;
+}
+
+.box h1 ,.box p{
+  color:#fff;
+  margin:8px;
+  font-style: italic;
+}
+
+
+.box1 , .box2{
+  width: 150px;
+  height: 220px;
+  box-shadow: 0px 0px 10px #000;
+  display: inline-block;
+  margin: 13px;
+  text-align: center;
+}
+
+.box1 img , .box2 img{
+  width: 150px;
+  height: 150px;
+}
+
+.box3 ,.box4 ,.box5, .box6, .box7, .box8{
+  width: 90vw;
+  height: 400px;
+  box-shadow: 0px 0px 10px #000;
+  margin: 10px auto;
+}
+
+.box3 img , .box4 img , .box5 img , .box6 img , .box7 img , .box8 img{
+  width: 90vw;
+  height: 400px;
+}
+
+.footer{
+  width: 100vw;
+  height: 180px;
+  background-color: #0b0b0be4;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.footer p:nth-child(1){
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  position: relative;
+  top: 45px;
+}
+
+
+.box a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid #000;
+  padding: 5px 12px;
+  position: relative;
+  top: 18px;
+  background-color: #ff000050;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.box a:hover{
+  color:#fff;
+  background-color: #ff0000;
+  box-shadow: none;
+}
+
+.box1:hover ,.box2:hover{
+  background-color: rgba(0,0,0,0.653);
+}
+
+.typewriter{
+  width: 60vw;
+  margin:0% auto;
+  position: relative;
+  top:47%;
+  text-align: center;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 4.5s steps(30) infinite,
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+  0%{width: 0%;}
+  50%{width: 100%;}
+  100%{width: 0%;}
+}
+
+
+@keyframes blink-caret {
+ from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.typewriter b{
+  color: red;
+  padding: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+section{
+  text-align: center;
+}

@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway,Sans-Serif;
+}
+
+body{
+  background: #060308d3;
+}
+
+nav{
+  background-color: #000;
+  overflow: auto;
+  background-size: cover;
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 18px 4px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.25s;
+  padding: 3px;
+}
+
+a:hover ,a.active{
+  color: black;
+  background-color:#ffffff63;
+  border-radius: 3px;
+  box-shadow: 1px 1px 25px #ffffffc2;
+}
+
+nav h1{
+  color:red;
+  font-size: 17px;
+  line-height: 3.5em;
+  position: absolute;
+  left: 5px;
+}
+
+.container h1{
+  color: #f10808fa;
+  text-align: center;
+  margin: 10px 0px 140px 0px;
+}
+
+.container{
+  text-align: center;
+}
+
+.box1 ,.box2 ,.box3{
+  margin: 35px 0px;
+  width: 250px;
+  position: relative;
+  left: 25px;
+}
+
+p{
+  display: inline;
+  margin: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#address{
+  color: #ff0000cf;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+  
+}
+
+#email{
+  color: blue;
+  position: relative;
+  top: 5px;
+}
+
+#phone{
+  color: #15ff00;
+  position: relative;
+  top: 10px;
+}
+
+.icons{
+    display:flex;
+}
+.icons a{
+    position:relative ;
+    display: block ;
+    color:#666;
+    font-size:30px;
+    height:60px;
+    width:60px;
+    background:#171515;
+    line-height:60px;
+    border-radius:50%;
+    margin:0 6px;
+    cursor:pointer ;
+    transition:5s;
+}
+.icons a:before{
+    position:absolute ;
+    content: '';
+    top:0;
+    left:0;
+    height:inherit;
+    width: inherit;
+    border-radius:50%;
+    transform: scale(0.9);
+    z-index:-1;
+    transition:.5s  
+}
+
+.icons a:nth-child(1):before{
+    background: #4267B2;
+}
+
+.icons a:nth-child(2):before{
+    background: #1DA1F2;
+}
+
+.icons a:nth-child(3):before{
+    background: #E1306C;
+}
+
+.icons a:nth-child(4):before{
+    background: #2867B2;
+}
+
+.icons a:nth-child(5):before{
+    background: #ff0000;
+}
+
+.icons a:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+}
+
+.icons a:nth-child(1):hover:before{
+    box-shadow: 0 0 15px #4267B2;
+}
+
+.icons a:nth-child(2):hover:before{
+    box-shadow: 0 0 15px #1DA1F2;
+}
+
+.icons a:nth-child(3):hover:before{
+    box-shadow: 0 0 15px #E1306C;
+}
+
+.icons a:nth-child(4):hover:before{
+    box-shadow: 0 0 15px #2867B2;
+}
+
+.icons a:nth-child(5):hover:before{
+    box-shadow: 0 0 15px #ff0000;
+}
+
+.icons a:nth-child(1):hover{
+    color: #456cba;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+}
+
+.icons a:nth-child(2):hover{
+    color: #26a4f2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+}
+
+.icons a:nth-child(3):hover{
+    color: #e23670;
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+}
+
+.icons a:nth-child(4):hover{
+    color: #2a6cbb;
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+}
+
+.icons a:nth-child(5):hover{
+    color: #ff1a1a;
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+}
+
+footer{
+  display:flex;
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+  top: 120px;
+}
